@@ -74,7 +74,7 @@ export default function SubConverter() {
     setShowResult(false)
 
     try {
-      const requestUrl = `https://subconverter.supanx.net/sub?target=clash&url=${processedUrl}&config=ACL4SSR_Clash_Meta.ini&udp=true&emoji=false&flag=meta&list=true`
+      const requestUrl = `http://localhost:25500/sub?target=clash&url=${processedUrl}&config=ACL4SSR_Clash_Meta.ini&udp=true&emoji=false&flag=meta&list=true`
 
       console.log('请求URL:', requestUrl)
 
